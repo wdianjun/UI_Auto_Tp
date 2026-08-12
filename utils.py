@@ -63,7 +63,7 @@ class DriverUtils:
             # 最大化窗口
             cls.__admin_driver.maximize_window()
             # 隐式等待
-            cls.__admin_driver.implicitly_wait(10)
+            cls.__admin_driver.implicitly_wait(20)
         return cls.__admin_driver
 
     # 关闭后台网站驱动对象
@@ -114,7 +114,7 @@ def el_is_exist_by_text(driver, is_app, key_text):
         # 找不到则给is_suc赋值为False
         is_suc = False
         # 截图
-        driver.get_screenshot_as_file(f"{key_text}未找到.png")
+        # driver.get_screenshot_as_file(f"{key_text}未找到.png")
         logging.error(f"未找到文本为{key_text}的元素对象！")
     # 返回是否找到结果
     return is_suc
