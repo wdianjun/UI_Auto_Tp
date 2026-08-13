@@ -1,0 +1,33 @@
+import time
+
+from config import BASE_DIR
+from page.tp_admin.tp_admin_page import AdminLoginPage
+from utils import DriverUtils, el_is_exist_by_text
+
+
+# 定义测试类
+class TestLogin:
+  # 类级别的初始化方法
+  def setup_class(self):
+    # 打开浏览器
+    self.driver = DriverUtils.get_admin_driver()
+    # 打开测试网址
+    self.driver.get("https://hmshop-test.itheima.net/admin")
+  # 类级别的销毁方法
+  def teardown_class(self):
+    # 关闭浏览器
+    DriverUtils.quit_admin_drive()
+    
+  # 定义测试方法
+  def test_login(self):
+    # 执行登录操作步骤
+    AdminLoginPage().admin_login("admin","123456","8888")
+    # time.sleep(5)
+    # 断言
+    try:
+      assert el_is_exist_by_text(self.driver,False,"admin")
+    except Exception as e:
+      # 截图放在img目录
+      self.driver.get_screenshot_as_file(BASE_DIR + "/img/login_failed.png")
+      # 继续抛出
+      raise e

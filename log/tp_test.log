@@ -1,81 +1,15 @@
-2026-08-12 16:14:24,220 ERROR [base_page.py(find_el:65)] - 没有获取到('name', 'username')的元素对象！
-2026-08-12 16:14:24,221 ERROR [base_page.py(input_text:76)] - 没有在None的元素对象中输入admin！
-2026-08-12 16:14:26,172 ERROR [base_page.py(find_el:65)] - 没有获取到('name', 'password')的元素对象！
-2026-08-12 16:14:26,173 ERROR [base_page.py(input_text:76)] - 没有在None的元素对象中输入123456！
-2026-08-12 16:14:26,363 ERROR [base_page.py(find_el:65)] - 没有获取到('id', 'vertify')的元素对象！
-2026-08-12 16:14:26,363 ERROR [base_page.py(input_text:76)] - 没有在None的元素对象中输入8888！
-2026-08-12 16:14:26,364 ERROR [base_page.py(find_el:65)] - 没有获取到('name', 'submit')的元素对象！
-2026-08-12 16:16:48,904 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'username')的元素对象！
-2026-08-12 16:16:49,121 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="8b41245b21b0a2172b43a51efb06f1ec", element="f.6526A773A1E26822524798E2FB1D81E0.d.BA48E9667537878DD6E113C2C1A54616.e.6")>的元素对象中输入admin！
-2026-08-12 16:16:49,132 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'password')的元素对象！
-2026-08-12 16:16:49,219 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="8b41245b21b0a2172b43a51efb06f1ec", element="f.6526A773A1E26822524798E2FB1D81E0.d.BA48E9667537878DD6E113C2C1A54616.e.7")>的元素对象中输入123456！
-2026-08-12 16:16:49,230 INFO [base_page.py(find_el:63)] - 成功获取到('id', 'vertify')的元素对象！
-2026-08-12 16:16:49,318 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="8b41245b21b0a2172b43a51efb06f1ec", element="f.6526A773A1E26822524798E2FB1D81E0.d.BA48E9667537878DD6E113C2C1A54616.e.8")>的元素对象中输入8888！
-2026-08-12 16:16:49,330 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'submit')的元素对象！
-2026-08-12 16:23:14,501 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'username')的元素对象！
-2026-08-12 16:23:14,751 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="ff79d6b1f2740645e9e534dd16ade293", element="f.43B65E0795BE2BAFF8EA36609D0AA9B0.d.42FCEEA7D99DD11DBD55A7F6216D5708.e.6")>的元素对象中输入admin！
-2026-08-12 16:23:14,766 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'password')的元素对象！
-2026-08-12 16:23:14,852 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="ff79d6b1f2740645e9e534dd16ade293", element="f.43B65E0795BE2BAFF8EA36609D0AA9B0.d.42FCEEA7D99DD11DBD55A7F6216D5708.e.7")>的元素对象中输入123456！
-2026-08-12 16:23:14,865 INFO [base_page.py(find_el:63)] - 成功获取到('id', 'vertify')的元素对象！
-2026-08-12 16:23:14,969 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="ff79d6b1f2740645e9e534dd16ade293", element="f.43B65E0795BE2BAFF8EA36609D0AA9B0.d.42FCEEA7D99DD11DBD55A7F6216D5708.e.8")>的元素对象中输入8888！
-2026-08-12 16:23:14,983 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'submit')的元素对象！
-2026-08-12 16:25:13,846 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'username')的元素对象！
-2026-08-12 16:25:14,087 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="dba1b6fb576d84334bcfeaa327875588", element="f.A8DCBFEDF36917A29165ED4DBAA691B3.d.5A6B5975D3DA7E05242940C98B116E0C.e.6")>的元素对象中输入admin！
-2026-08-12 16:25:14,110 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'password')的元素对象！
-2026-08-12 16:25:14,275 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="dba1b6fb576d84334bcfeaa327875588", element="f.A8DCBFEDF36917A29165ED4DBAA691B3.d.5A6B5975D3DA7E05242940C98B116E0C.e.7")>的元素对象中输入123456！
-2026-08-12 16:25:14,293 INFO [base_page.py(find_el:63)] - 成功获取到('id', 'vertify')的元素对象！
-2026-08-12 16:25:14,441 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="dba1b6fb576d84334bcfeaa327875588", element="f.A8DCBFEDF36917A29165ED4DBAA691B3.d.5A6B5975D3DA7E05242940C98B116E0C.e.8")>的元素对象中输入8888！
-2026-08-12 16:25:14,456 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'submit')的元素对象！
-2026-08-12 16:25:50,141 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'username')的元素对象！
-2026-08-12 16:25:50,371 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="8b5d6fd355ddeed38b5c86216c2ba0ce", element="f.8DC27F66653465680E29CF78AABF946E.d.1F6D01F4F7E1120A3E7F0E752EBC7C10.e.6")>的元素对象中输入admin！
-2026-08-12 16:25:50,403 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'password')的元素对象！
-2026-08-12 16:25:50,505 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="8b5d6fd355ddeed38b5c86216c2ba0ce", element="f.8DC27F66653465680E29CF78AABF946E.d.1F6D01F4F7E1120A3E7F0E752EBC7C10.e.7")>的元素对象中输入123456！
-2026-08-12 16:25:50,522 INFO [base_page.py(find_el:63)] - 成功获取到('id', 'vertify')的元素对象！
-2026-08-12 16:25:50,679 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="8b5d6fd355ddeed38b5c86216c2ba0ce", element="f.8DC27F66653465680E29CF78AABF946E.d.1F6D01F4F7E1120A3E7F0E752EBC7C10.e.8")>的元素对象中输入8888！
-2026-08-12 16:25:50,690 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'submit')的元素对象！
-2026-08-12 16:30:44,565 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'username')的元素对象！
-2026-08-12 16:30:44,837 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="bb193fd2c7e9e446aefc6467fb98fde1", element="f.90A26413C1F6CE7DC2B757C0F9FA9BF1.d.DB82B7628102E424833CE3FD54566E7C.e.5")>的元素对象中输入admin！
-2026-08-12 16:30:44,848 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'password')的元素对象！
-2026-08-12 16:30:44,932 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="bb193fd2c7e9e446aefc6467fb98fde1", element="f.90A26413C1F6CE7DC2B757C0F9FA9BF1.d.DB82B7628102E424833CE3FD54566E7C.e.6")>的元素对象中输入123456！
-2026-08-12 16:30:44,944 INFO [base_page.py(find_el:63)] - 成功获取到('id', 'vertify')的元素对象！
-2026-08-12 16:30:45,047 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="bb193fd2c7e9e446aefc6467fb98fde1", element="f.90A26413C1F6CE7DC2B757C0F9FA9BF1.d.DB82B7628102E424833CE3FD54566E7C.e.7")>的元素对象中输入8888！
-2026-08-12 16:30:45,059 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'submit')的元素对象！
-2026-08-12 16:58:38,520 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'username')的元素对象！
-2026-08-12 16:58:38,771 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="4c15867b8599c1bcafa7b9e087c69c7f", element="f.54A278344FC8B7336E29271AB05194B7.d.48A9593BEC79FECB7C8D1D694A0F1A95.e.5")>的元素对象中输入admin！
-2026-08-12 16:58:38,782 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'password')的元素对象！
-2026-08-12 16:58:38,858 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="4c15867b8599c1bcafa7b9e087c69c7f", element="f.54A278344FC8B7336E29271AB05194B7.d.48A9593BEC79FECB7C8D1D694A0F1A95.e.6")>的元素对象中输入123456！
-2026-08-12 16:58:38,869 INFO [base_page.py(find_el:63)] - 成功获取到('id', 'vertify')的元素对象！
-2026-08-12 16:58:38,995 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="4c15867b8599c1bcafa7b9e087c69c7f", element="f.54A278344FC8B7336E29271AB05194B7.d.48A9593BEC79FECB7C8D1D694A0F1A95.e.7")>的元素对象中输入8888！
-2026-08-12 16:58:39,007 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'submit')的元素对象！
-2026-08-12 16:58:59,342 ERROR [utils.py(el_is_exist_by_text:118)] - 未找到文本为admin的元素对象！
-2026-08-12 17:03:18,740 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'username')的元素对象！
-2026-08-12 17:03:18,998 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="5fc0045d419b61a9d55b916282a13332", element="f.4B0932E9DA9FAD7FF8DC79DD3A102FB4.d.311A1F569BC090CBAA4328159C26A69B.e.8")>的元素对象中输入admin！
-2026-08-12 17:03:19,011 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'password')的元素对象！
-2026-08-12 17:03:19,088 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="5fc0045d419b61a9d55b916282a13332", element="f.4B0932E9DA9FAD7FF8DC79DD3A102FB4.d.311A1F569BC090CBAA4328159C26A69B.e.9")>的元素对象中输入123456！
-2026-08-12 17:03:19,098 INFO [base_page.py(find_el:63)] - 成功获取到('id', 'vertify')的元素对象！
-2026-08-12 17:03:19,226 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="5fc0045d419b61a9d55b916282a13332", element="f.4B0932E9DA9FAD7FF8DC79DD3A102FB4.d.311A1F569BC090CBAA4328159C26A69B.e.10")>的元素对象中输入8888！
-2026-08-12 17:03:19,241 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'submit')的元素对象！
-2026-08-12 17:03:39,394 ERROR [utils.py(el_is_exist_by_text:118)] - 未找到文本为admin的元素对象！
-2026-08-12 17:04:10,638 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'username')的元素对象！
-2026-08-12 17:04:10,869 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="9a4ea8c68bf94c4c93702381d750560b", element="f.0A2935CAACD8965A209CA4FC05E83742.d.97E83513ACAF22C3635B348D33A2F356.e.7")>的元素对象中输入admin！
-2026-08-12 17:04:10,883 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'password')的元素对象！
-2026-08-12 17:04:10,965 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="9a4ea8c68bf94c4c93702381d750560b", element="f.0A2935CAACD8965A209CA4FC05E83742.d.97E83513ACAF22C3635B348D33A2F356.e.8")>的元素对象中输入123456！
-2026-08-12 17:04:10,976 INFO [base_page.py(find_el:63)] - 成功获取到('id', 'vertify')的元素对象！
-2026-08-12 17:04:11,102 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="9a4ea8c68bf94c4c93702381d750560b", element="f.0A2935CAACD8965A209CA4FC05E83742.d.97E83513ACAF22C3635B348D33A2F356.e.9")>的元素对象中输入8888！
-2026-08-12 17:04:11,117 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'submit')的元素对象！
-2026-08-12 17:04:31,271 ERROR [utils.py(el_is_exist_by_text:118)] - 未找到文本为admin的元素对象！
-2026-08-12 17:08:10,546 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'username')的元素对象！
-2026-08-12 17:08:10,812 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="ed55b09d621dbc4b4d69efdfaec56da2", element="f.07071C1A845631DDBB04D80C1CC58735.d.CC99295D80CEA815863668509225E3F7.e.6")>的元素对象中输入admin！
-2026-08-12 17:08:10,823 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'password')的元素对象！
-2026-08-12 17:08:10,908 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="ed55b09d621dbc4b4d69efdfaec56da2", element="f.07071C1A845631DDBB04D80C1CC58735.d.CC99295D80CEA815863668509225E3F7.e.7")>的元素对象中输入123456！
-2026-08-12 17:08:10,919 INFO [base_page.py(find_el:63)] - 成功获取到('id', 'vertify')的元素对象！
-2026-08-12 17:08:11,061 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="ed55b09d621dbc4b4d69efdfaec56da2", element="f.07071C1A845631DDBB04D80C1CC58735.d.CC99295D80CEA815863668509225E3F7.e.8")>的元素对象中输入8888！
-2026-08-12 17:08:11,074 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'submit')的元素对象！
-2026-08-12 17:13:25,789 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'username')的元素对象！
-2026-08-12 17:13:26,045 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="6d343068b6afa904b37e57920de2ef37", element="f.E40BA5568D754B371D712D1974C4D596.d.37D20B8CEBBD09F280C78B2EAFC0DC4E.e.4")>的元素对象中输入admin！
-2026-08-12 17:13:26,058 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'password')的元素对象！
-2026-08-12 17:13:26,120 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="6d343068b6afa904b37e57920de2ef37", element="f.E40BA5568D754B371D712D1974C4D596.d.37D20B8CEBBD09F280C78B2EAFC0DC4E.e.5")>的元素对象中输入123456！
-2026-08-12 17:13:26,155 INFO [base_page.py(find_el:63)] - 成功获取到('id', 'vertify')的元素对象！
-2026-08-12 17:13:26,298 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="6d343068b6afa904b37e57920de2ef37", element="f.E40BA5568D754B371D712D1974C4D596.d.37D20B8CEBBD09F280C78B2EAFC0DC4E.e.6")>的元素对象中输入8888！
-2026-08-12 17:13:26,311 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'submit')的元素对象！
-2026-08-12 17:13:46,463 ERROR [utils.py(el_is_exist_by_text:118)] - 未找到文本为admin的元素对象！
+2026-08-13 08:43:46,436 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'username')的元素对象！
+2026-08-13 08:43:46,670 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="05b2570b7b8ebd0cff2269d55e5c4cfc", element="f.B27F26F219334D5B4482158DFDD5CE1F.d.A4A5141656C5987231B729A0E6C76B26.e.5")>的元素对象中输入admin！
+2026-08-13 08:43:46,685 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'password')的元素对象！
+2026-08-13 08:43:46,776 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="05b2570b7b8ebd0cff2269d55e5c4cfc", element="f.B27F26F219334D5B4482158DFDD5CE1F.d.A4A5141656C5987231B729A0E6C76B26.e.6")>的元素对象中输入123456！
+2026-08-13 08:43:46,791 INFO [base_page.py(find_el:63)] - 成功获取到('id', 'vertify')的元素对象！
+2026-08-13 08:43:46,874 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="05b2570b7b8ebd0cff2269d55e5c4cfc", element="f.B27F26F219334D5B4482158DFDD5CE1F.d.A4A5141656C5987231B729A0E6C76B26.e.7")>的元素对象中输入8888！
+2026-08-13 08:43:46,889 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'submit')的元素对象！
+2026-08-13 08:44:06,973 ERROR [utils.py(el_is_exist_by_text:118)] - 未找到文本为admin的元素对象！
+2026-08-13 09:33:39,711 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
+2026-08-13 09:33:39,993 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="af81f2119fc337bbcecaa93499077c3e", element="f.C539D95F82C84D55A6F3EE673AC80296.d.9528C82363B497D9BB67B6360C780556.e.6")>的元素对象中输入admin！
+2026-08-13 09:33:40,007 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
+2026-08-13 09:33:40,113 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="af81f2119fc337bbcecaa93499077c3e", element="f.C539D95F82C84D55A6F3EE673AC80296.d.9528C82363B497D9BB67B6360C780556.e.7")>的元素对象中输入HM_2023_test！
+2026-08-13 09:33:40,126 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
+2026-08-13 09:33:40,256 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="af81f2119fc337bbcecaa93499077c3e", element="f.C539D95F82C84D55A6F3EE673AC80296.d.9528C82363B497D9BB67B6360C780556.e.8")>的元素对象中输入2！
+2026-08-13 09:33:40,275 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
