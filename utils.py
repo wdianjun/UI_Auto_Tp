@@ -92,13 +92,20 @@ class DriverUtils:
             # 隐式等待
             cls.__admin_driver.implicitly_wait(20)
         return cls.__admin_driver
+    
+    # 关闭浏览器驱动对象开关
+    __kd_key = True
+    # 修改关闭驱动对象开关的方法
+    @classmethod
+    def set_kd_key(cls, key):
+        cls.__kd_key = key  
 
     # 关闭后台网站驱动对象
     @classmethod
     def quit_kd_drive(cls):
         # 为了加强代码的健壮性，避免单独调用关闭浏览器驱动方法时报警，在调用关闭驱动对象的方法时先判断
         # 当前是否有打开的浏览器
-        if cls.__admin_driver is not None:
+        if cls.__admin_driver is not None and cls.__kd_key:
             time.sleep(2)
             cls.__admin_driver.quit()
             # 关闭后要把__driver置空
