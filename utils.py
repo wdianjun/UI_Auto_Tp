@@ -76,6 +76,33 @@ class DriverUtils:
             cls.__admin_driver.quit()
             # 关闭后要把__driver置空
             cls.__admin_driver = None
+            
+            
+    # 获取后台网站驱动对象
+    @classmethod
+    def get_kd_driver(cls):
+        if cls.__admin_driver is None:
+            service = Service(
+                r"/Users/D1anJun/Downloads/test/driver/chromedriver"
+            )  # Mac存放浏览器驱动地址
+            # service = Service(r"D:\test\driver\chromedriver.exe") # win地址
+            cls.__admin_driver = webdriver.Chrome(service=service)
+            # 最大化窗口
+            cls.__admin_driver.maximize_window()
+            # 隐式等待
+            cls.__admin_driver.implicitly_wait(20)
+        return cls.__admin_driver
+
+    # 关闭后台网站驱动对象
+    @classmethod
+    def quit_kd_drive(cls):
+        # 为了加强代码的健壮性，避免单独调用关闭浏览器驱动方法时报警，在调用关闭驱动对象的方法时先判断
+        # 当前是否有打开的浏览器
+        if cls.__admin_driver is not None:
+            time.sleep(2)
+            cls.__admin_driver.quit()
+            # 关闭后要把__driver置空
+            cls.__admin_driver = None
 
 
 # 函数：获取公共元素的文本(作用：在测试用例执行完毕后，需要获取结果页面指定的元素数据来做断言)
