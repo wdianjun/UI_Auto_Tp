@@ -1,6 +1,10 @@
+import pytest
+
 from utils import DriverUtils
 
-
+# 测试用例排序
+# 值越小优先级越高，只限整数
+@ pytest.mark.run(order=1)
 class TestBegin:
 
     def test_begin(self):

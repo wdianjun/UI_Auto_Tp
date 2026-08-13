@@ -1,12 +1,14 @@
 import time
 
+import pytest
+
 from config import BASE_DIR
 from page.kd_home_page import KdHomePage
 from page.kd_login_page import KdLoginPage
 from page.kd_user_page import KdUserPage
 from utils import DriverUtils, el_is_exist_by_text
 
-
+@ pytest.mark.run(order=3)
 # 定义测试类
 class TestAddUser:
     # 类级别的初始化方法
@@ -23,7 +25,7 @@ class TestAddUser:
 
     # 定义测试方法
     def test_add_user(self):
-        KdLoginPage().kd_login("admin", "HM_2023_test", "2")
+        # KdLoginPage().kd_login("admin", "HM_2023_test", "2")
         KdHomePage().kd_home()
 
         # 每次生成不同的用户名称，避免重复

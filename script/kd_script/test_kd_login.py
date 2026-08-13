@@ -1,10 +1,12 @@
 import time
 
+import pytest
+
 from config import BASE_DIR
 from page.kd_login_page import KdLoginPage
 from utils import DriverUtils, el_is_exist_by_text
 
-
+@ pytest.mark.run(order=2)
 # 定义测试类
 class TestLogin:
   # 类级别的初始化方法
