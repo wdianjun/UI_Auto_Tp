@@ -3,13 +3,12 @@ import time
 import allure
 import pytest
 
-from config import BASE_DIR
 from page.kd_home_page import KdHomePage
-from page.kd_login_page import KdLoginPage
 from page.kd_user_page import KdUserPage
-from utils import DriverUtils, el_is_exist_by_text
+from utils import DriverUtils
 
-@ pytest.mark.run(order=3)
+@pytest.mark.run(order=3)
+@allure.feature("用户管理模块")
 # 定义测试类
 class TestAddUser:
     # 类级别的初始化方法
@@ -25,34 +24,30 @@ class TestAddUser:
         DriverUtils.quit_kd_drive()
 
     # 定义测试方法
+    @allure.title("新增用户成功")
     def test_add_user(self):
-        # KdLoginPage().kd_login("admin", "HM_2023_test", "2")
-        KdHomePage().kd_home()
+        with allure.step("进入用户管理页面"):
+            KdHomePage().kd_home()
 
         # 每次生成不同的用户名称，避免重复
         username = f"add_{time.strftime('%Y%m%d%H%M%S')}"
         nickname = "测试kdUI"
 
-        success_message = KdUserPage().kd_add_user(nickname, username)
+        with allure.step("填写用户信息并提交"):
+            success_message = KdUserPage().kd_add_user(nickname, username)
 
-        # 新增记录可能不在当前分页，断言提交后的成功提示更稳定
-        # assert "成功" in success_message, (
-        #     f"新增用户失败，页面提示：{success_message!r}"
-        # )
-        try:
-          assert "成功" in success_message, (
-                      f"新增用户失败，页面提示：{success_message!r}"
-                  )
-        except AssertionError as e:
-            # 如果断言失败截图
-        #   self.driver.get_screenshot_as_file(BASE_DIR + "/img/test_add_user.png")
-        # 将错误截图插入到测试报告中
-            allure.attach(
-            self.driver.get_screenshot_as_png(),
-            BASE_DIR + "/img/test_add_user.png",
-            allure.attachment_type.PNG
-        )
-        raise e
+        with allure.step("断言用户新增成功"):
+            try:
+                assert "成功" in success_message, (
+                    f"新增用户失败，页面提示：{success_message!r}"
+                )
+            except AssertionError:
+                allure.attach(
+                    self.driver.get_screenshot_as_png(),
+                    name="新增用户失败截图",
+                    attachment_type=allure.attachment_type.PNG
+                )
+                raise
     # def test_add_user(self):
     #   # 执行登录操作步骤
     #   KdLoginPage().kd_login("admin","HM_2023_test","2")

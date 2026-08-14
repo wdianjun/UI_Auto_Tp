@@ -1,0 +1,7 @@
+[32mINFO    [0m root:base_page.py:110 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
+[32mINFO    [0m root:base_page.py:121 成功在<selenium.webdriver.remote.webelement.WebElement (session="c025e2c8327118126ee1311d1704ff24", element="f.2D24798FC4427F158E459E0BF2AD4822.d.D60B5F298197B5D51948232FEAA1949F.e.6")>的元素对象中输入admin！
+[32mINFO    [0m root:base_page.py:110 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
+[32mINFO    [0m root:base_page.py:121 成功在<selenium.webdriver.remote.webelement.WebElement (session="c025e2c8327118126ee1311d1704ff24", element="f.2D24798FC4427F158E459E0BF2AD4822.d.D60B5F298197B5D51948232FEAA1949F.e.7")>的元素对象中输入HM_2023_test！
+[32mINFO    [0m root:base_page.py:110 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
+[32mINFO    [0m root:base_page.py:121 成功在<selenium.webdriver.remote.webelement.WebElement (session="c025e2c8327118126ee1311d1704ff24", element="f.2D24798FC4427F158E459E0BF2AD4822.d.D60B5F298197B5D51948232FEAA1949F.e.8")>的元素对象中输入2！
+[32mINFO    [0m root:base_page.py:110 成功获取到('css selector', 'button.login-btn')的元素对象！

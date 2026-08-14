@@ -1,162 +1,191 @@
-2026-08-13 08:43:46,436 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'username')的元素对象！
-2026-08-13 08:43:46,670 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="05b2570b7b8ebd0cff2269d55e5c4cfc", element="f.B27F26F219334D5B4482158DFDD5CE1F.d.A4A5141656C5987231B729A0E6C76B26.e.5")>的元素对象中输入admin！
-2026-08-13 08:43:46,685 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'password')的元素对象！
-2026-08-13 08:43:46,776 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="05b2570b7b8ebd0cff2269d55e5c4cfc", element="f.B27F26F219334D5B4482158DFDD5CE1F.d.A4A5141656C5987231B729A0E6C76B26.e.6")>的元素对象中输入123456！
-2026-08-13 08:43:46,791 INFO [base_page.py(find_el:63)] - 成功获取到('id', 'vertify')的元素对象！
-2026-08-13 08:43:46,874 INFO [base_page.py(input_text:74)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="05b2570b7b8ebd0cff2269d55e5c4cfc", element="f.B27F26F219334D5B4482158DFDD5CE1F.d.A4A5141656C5987231B729A0E6C76B26.e.7")>的元素对象中输入8888！
-2026-08-13 08:43:46,889 INFO [base_page.py(find_el:63)] - 成功获取到('name', 'submit')的元素对象！
-2026-08-13 08:44:06,973 ERROR [utils.py(el_is_exist_by_text:118)] - 未找到文本为admin的元素对象！
-2026-08-13 09:33:39,711 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
-2026-08-13 09:33:39,993 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="af81f2119fc337bbcecaa93499077c3e", element="f.C539D95F82C84D55A6F3EE673AC80296.d.9528C82363B497D9BB67B6360C780556.e.6")>的元素对象中输入admin！
-2026-08-13 09:33:40,007 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
-2026-08-13 09:33:40,113 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="af81f2119fc337bbcecaa93499077c3e", element="f.C539D95F82C84D55A6F3EE673AC80296.d.9528C82363B497D9BB67B6360C780556.e.7")>的元素对象中输入HM_2023_test！
-2026-08-13 09:33:40,126 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
-2026-08-13 09:33:40,256 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="af81f2119fc337bbcecaa93499077c3e", element="f.C539D95F82C84D55A6F3EE673AC80296.d.9528C82363B497D9BB67B6360C780556.e.8")>的元素对象中输入2！
-2026-08-13 09:33:40,275 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
-2026-08-13 09:50:14,732 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
-2026-08-13 09:50:14,931 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="8b63a7d2f98d2f150978ad68be9360e0", element="f.3B1FD5CF2DED6A6E0BEFD9FB98F1C674.d.D18CFD558547BDDF485E445BF22697D8.e.6")>的元素对象中输入admin！
-2026-08-13 09:50:14,947 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
-2026-08-13 09:50:15,064 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="8b63a7d2f98d2f150978ad68be9360e0", element="f.3B1FD5CF2DED6A6E0BEFD9FB98F1C674.d.D18CFD558547BDDF485E445BF22697D8.e.7")>的元素对象中输入HM_2023_test！
-2026-08-13 09:50:15,080 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
-2026-08-13 09:50:15,171 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="8b63a7d2f98d2f150978ad68be9360e0", element="f.3B1FD5CF2DED6A6E0BEFD9FB98F1C674.d.D18CFD558547BDDF485E445BF22697D8.e.8")>的元素对象中输入2！
-2026-08-13 09:50:15,197 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
-2026-08-13 12:03:45,341 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
-2026-08-13 12:03:45,563 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="6d4f20f45aaaa9ff5e09b72c6f1b6ce3", element="f.1C938DAF141758E8CEB0B11038A2ED5A.d.81109B940DEA824536C71A56166618A1.e.5")>的元素对象中输入admin！
-2026-08-13 12:03:45,576 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
-2026-08-13 12:03:45,666 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="6d4f20f45aaaa9ff5e09b72c6f1b6ce3", element="f.1C938DAF141758E8CEB0B11038A2ED5A.d.81109B940DEA824536C71A56166618A1.e.6")>的元素对象中输入HM_2023_test！
-2026-08-13 12:03:45,679 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
-2026-08-13 12:03:45,756 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="6d4f20f45aaaa9ff5e09b72c6f1b6ce3", element="f.1C938DAF141758E8CEB0B11038A2ED5A.d.81109B940DEA824536C71A56166618A1.e.7")>的元素对象中输入2！
-2026-08-13 12:03:45,771 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
-2026-08-13 12:03:47,699 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
-2026-08-13 12:03:47,775 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
-2026-08-13 12:03:47,978 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
-2026-08-13 12:08:34,229 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
-2026-08-13 12:08:34,455 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="b13e3d88bf83caa8d63b0c67384c89d5", element="f.7CF12CD59ADD2545F83AA0D15DD0EACF.d.707AD8DA580499B16A1A2A1598224F48.e.5")>的元素对象中输入admin！
-2026-08-13 12:08:34,467 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
-2026-08-13 12:08:34,555 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="b13e3d88bf83caa8d63b0c67384c89d5", element="f.7CF12CD59ADD2545F83AA0D15DD0EACF.d.707AD8DA580499B16A1A2A1598224F48.e.6")>的元素对象中输入HM_2023_test！
-2026-08-13 12:08:34,567 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
-2026-08-13 12:08:34,663 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="b13e3d88bf83caa8d63b0c67384c89d5", element="f.7CF12CD59ADD2545F83AA0D15DD0EACF.d.707AD8DA580499B16A1A2A1598224F48.e.7")>的元素对象中输入2！
-2026-08-13 12:08:34,677 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
-2026-08-13 12:08:36,008 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
-2026-08-13 12:08:36,224 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
-2026-08-13 12:08:36,436 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
-2026-08-13 12:08:37,182 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
-2026-08-13 12:08:37,462 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
-2026-08-13 12:08:37,613 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="b13e3d88bf83caa8d63b0c67384c89d5", element="f.7CF12CD59ADD2545F83AA0D15DD0EACF.d.707AD8DA580499B16A1A2A1598224F48.e.210")>的元素对象中输入测试kdUI！
-2026-08-13 12:08:37,625 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
-2026-08-13 12:08:37,769 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="b13e3d88bf83caa8d63b0c67384c89d5", element="f.7CF12CD59ADD2545F83AA0D15DD0EACF.d.707AD8DA580499B16A1A2A1598224F48.e.215")>的元素对象中输入nick测试UI！
-2026-08-13 12:08:37,782 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.cus-search-btn')的元素对象！
-2026-08-13 12:11:09,728 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
-2026-08-13 12:11:09,964 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="d75287a409b72af3560e0d56d65fbf51", element="f.04EBEBC81FF51B813E9A0B3F3AF1FB4C.d.A48BAB6BAC16972F151AA746B5A62DCD.e.6")>的元素对象中输入admin！
-2026-08-13 12:11:09,978 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
-2026-08-13 12:11:10,070 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="d75287a409b72af3560e0d56d65fbf51", element="f.04EBEBC81FF51B813E9A0B3F3AF1FB4C.d.A48BAB6BAC16972F151AA746B5A62DCD.e.7")>的元素对象中输入HM_2023_test！
-2026-08-13 12:11:10,083 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
-2026-08-13 12:11:10,218 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="d75287a409b72af3560e0d56d65fbf51", element="f.04EBEBC81FF51B813E9A0B3F3AF1FB4C.d.A48BAB6BAC16972F151AA746B5A62DCD.e.8")>的元素对象中输入2！
-2026-08-13 12:11:10,228 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
-2026-08-13 12:11:11,253 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
-2026-08-13 12:11:11,319 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
-2026-08-13 12:11:11,593 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
-2026-08-13 12:11:12,288 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
-2026-08-13 12:11:12,558 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
-2026-08-13 12:11:12,761 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="d75287a409b72af3560e0d56d65fbf51", element="f.04EBEBC81FF51B813E9A0B3F3AF1FB4C.d.A48BAB6BAC16972F151AA746B5A62DCD.e.211")>的元素对象中输入测试kdUI！
-2026-08-13 12:11:12,780 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
-2026-08-13 12:11:12,931 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="d75287a409b72af3560e0d56d65fbf51", element="f.04EBEBC81FF51B813E9A0B3F3AF1FB4C.d.A48BAB6BAC16972F151AA746B5A62DCD.e.216")>的元素对象中输入nick测试UI！
-2026-08-13 12:11:32,968 ERROR [base_page.py(find_el:112)] - 没有获取到('xpath', "//div[contains(@class,'el-dialog__wrapper') and not(contains(@style,'display: none'))]//div[contains(@class,'el-dialog__footer')]//button[.//span[normalize-space()='确定']]")的元素对象！
-2026-08-13 12:13:42,304 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
-2026-08-13 12:13:42,547 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="1990b0b7d0615d15dc7aec9a2d0ccf76", element="f.BDBCB7A146486F9215B3F0AA27404263.d.227B3896489E58A376B68E650110D6C5.e.5")>的元素对象中输入admin！
-2026-08-13 12:13:42,572 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
-2026-08-13 12:13:42,655 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="1990b0b7d0615d15dc7aec9a2d0ccf76", element="f.BDBCB7A146486F9215B3F0AA27404263.d.227B3896489E58A376B68E650110D6C5.e.6")>的元素对象中输入HM_2023_test！
-2026-08-13 12:13:42,666 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
-2026-08-13 12:13:42,794 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="1990b0b7d0615d15dc7aec9a2d0ccf76", element="f.BDBCB7A146486F9215B3F0AA27404263.d.227B3896489E58A376B68E650110D6C5.e.7")>的元素对象中输入2！
-2026-08-13 12:13:42,806 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
-2026-08-13 12:13:43,950 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
-2026-08-13 12:13:44,048 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
-2026-08-13 12:13:44,254 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
-2026-08-13 12:13:44,994 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
-2026-08-13 12:13:45,274 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
-2026-08-13 12:13:45,564 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="1990b0b7d0615d15dc7aec9a2d0ccf76", element="f.BDBCB7A146486F9215B3F0AA27404263.d.227B3896489E58A376B68E650110D6C5.e.205")>的元素对象中输入测试kdUI！
-2026-08-13 12:13:45,586 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
-2026-08-13 12:13:45,744 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="1990b0b7d0615d15dc7aec9a2d0ccf76", element="f.BDBCB7A146486F9215B3F0AA27404263.d.227B3896489E58A376B68E650110D6C5.e.210")>的元素对象中输入nick测试UI！
-2026-08-13 12:13:45,757 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'div.el-dialog__footer button.cus-search-btn')的元素对象！
-2026-08-13 12:16:40,688 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
-2026-08-13 12:16:40,924 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="0d38a9cf748f9678668b1263b1244fad", element="f.12C92C99976FE1A75A52901B6A9253C3.d.1C7BF7D1C38F591959AE1B2BDACD594D.e.7")>的元素对象中输入admin！
-2026-08-13 12:16:40,938 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
-2026-08-13 12:16:41,030 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="0d38a9cf748f9678668b1263b1244fad", element="f.12C92C99976FE1A75A52901B6A9253C3.d.1C7BF7D1C38F591959AE1B2BDACD594D.e.8")>的元素对象中输入HM_2023_test！
-2026-08-13 12:16:41,044 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
-2026-08-13 12:16:41,167 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="0d38a9cf748f9678668b1263b1244fad", element="f.12C92C99976FE1A75A52901B6A9253C3.d.1C7BF7D1C38F591959AE1B2BDACD594D.e.9")>的元素对象中输入2！
-2026-08-13 12:16:41,182 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
-2026-08-13 12:16:42,549 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
-2026-08-13 12:16:42,612 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
-2026-08-13 12:16:42,877 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
-2026-08-13 12:16:43,574 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
-2026-08-13 12:16:43,820 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
-2026-08-13 12:16:44,175 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="0d38a9cf748f9678668b1263b1244fad", element="f.12C92C99976FE1A75A52901B6A9253C3.d.1C7BF7D1C38F591959AE1B2BDACD594D.e.195")>的元素对象中输入测试kdUI！
-2026-08-13 12:16:44,192 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
-2026-08-13 12:16:44,309 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="0d38a9cf748f9678668b1263b1244fad", element="f.12C92C99976FE1A75A52901B6A9253C3.d.1C7BF7D1C38F591959AE1B2BDACD594D.e.200")>的元素对象中输入nick测试UI！
-2026-08-13 12:16:44,324 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']/ancestor::div[contains(concat(' ',normalize-space(@class),' '),' el-dialog ')][1]//div[contains(concat(' ',normalize-space(@class),' '),' dialog-footer ')]//button[contains(concat(' ',normalize-space(@class),' '),' cus-search-btn ')]")的元素对象！
-2026-08-13 14:55:30,089 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
-2026-08-13 14:55:30,354 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="e2abb7dd07c0b1e51319467d8e1aec8a", element="f.000CE5D4B880F8A6CF48E5FC47A32EE6.d.7AE71BDA2C434A41036794B854EF3D14.e.6")>的元素对象中输入admin！
-2026-08-13 14:55:30,368 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
-2026-08-13 14:55:30,455 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="e2abb7dd07c0b1e51319467d8e1aec8a", element="f.000CE5D4B880F8A6CF48E5FC47A32EE6.d.7AE71BDA2C434A41036794B854EF3D14.e.7")>的元素对象中输入HM_2023_test！
-2026-08-13 14:55:30,466 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
-2026-08-13 14:55:30,586 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="e2abb7dd07c0b1e51319467d8e1aec8a", element="f.000CE5D4B880F8A6CF48E5FC47A32EE6.d.7AE71BDA2C434A41036794B854EF3D14.e.8")>的元素对象中输入2！
-2026-08-13 14:55:30,599 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
-2026-08-13 14:55:31,647 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
-2026-08-13 14:55:31,895 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
-2026-08-13 14:55:32,146 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
-2026-08-13 14:55:32,878 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
-2026-08-13 14:55:33,158 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
-2026-08-13 14:55:33,362 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="e2abb7dd07c0b1e51319467d8e1aec8a", element="f.000CE5D4B880F8A6CF48E5FC47A32EE6.d.7AE71BDA2C434A41036794B854EF3D14.e.206")>的元素对象中输入测试kdUI！
-2026-08-13 14:55:33,385 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
-2026-08-13 14:55:33,599 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="e2abb7dd07c0b1e51319467d8e1aec8a", element="f.000CE5D4B880F8A6CF48E5FC47A32EE6.d.7AE71BDA2C434A41036794B854EF3D14.e.211")>的元素对象中输入add_20260813145532！
-2026-08-13 14:55:33,617 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']/ancestor::div[contains(concat(' ',normalize-space(@class),' '),' el-dialog ')][1]//div[contains(concat(' ',normalize-space(@class),' '),' dialog-footer ')]//button[contains(concat(' ',normalize-space(@class),' '),' cus-search-btn ')]")的元素对象！
-2026-08-13 14:55:53,704 ERROR [utils.py(el_is_exist_by_text:118)] - 未找到文本为add_20260813145532的元素对象！
-2026-08-13 15:25:03,069 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
-2026-08-13 15:25:03,350 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="079733d41725caffbeb86d03f37fe9d7", element="f.185DE531AA6AA01832E70177F84080C5.d.E5BEA4C365E5DD1BD33A8107DA4A6429.e.8")>的元素对象中输入admin！
-2026-08-13 15:25:03,364 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
-2026-08-13 15:25:03,467 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="079733d41725caffbeb86d03f37fe9d7", element="f.185DE531AA6AA01832E70177F84080C5.d.E5BEA4C365E5DD1BD33A8107DA4A6429.e.9")>的元素对象中输入HM_2023_test！
-2026-08-13 15:25:03,479 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
-2026-08-13 15:25:03,617 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="079733d41725caffbeb86d03f37fe9d7", element="f.185DE531AA6AA01832E70177F84080C5.d.E5BEA4C365E5DD1BD33A8107DA4A6429.e.10")>的元素对象中输入2！
-2026-08-13 15:25:03,636 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
-2026-08-13 15:25:04,701 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
-2026-08-13 15:25:04,771 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
-2026-08-13 15:25:05,032 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
-2026-08-13 15:25:05,778 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
-2026-08-13 15:25:05,980 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
-2026-08-13 15:25:06,232 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="079733d41725caffbeb86d03f37fe9d7", element="f.185DE531AA6AA01832E70177F84080C5.d.E5BEA4C365E5DD1BD33A8107DA4A6429.e.213")>的元素对象中输入测试kdUI！
-2026-08-13 15:25:06,249 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
-2026-08-13 15:25:06,480 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="079733d41725caffbeb86d03f37fe9d7", element="f.185DE531AA6AA01832E70177F84080C5.d.E5BEA4C365E5DD1BD33A8107DA4A6429.e.218")>的元素对象中输入add_20260813152505！
-2026-08-13 15:25:06,496 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']/ancestor::div[contains(concat(' ',normalize-space(@class),' '),' el-dialog ')][1]//div[contains(concat(' ',normalize-space(@class),' '),' dialog-footer ')]//button[contains(concat(' ',normalize-space(@class),' '),' cus-search-btn ')]")的元素对象！
-2026-08-13 15:25:06,799 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', '.el-message.el-message--success')的元素对象！
-2026-08-13 15:29:52,950 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
-2026-08-13 15:29:53,204 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="434c018ea84ded0042a38afe57b3caa2", element="f.C15934152D0992D057D63BC329584E6F.d.4C650FA783F115D8D9CE8C08B284DD53.e.6")>的元素对象中输入admin！
-2026-08-13 15:29:53,217 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
-2026-08-13 15:29:53,317 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="434c018ea84ded0042a38afe57b3caa2", element="f.C15934152D0992D057D63BC329584E6F.d.4C650FA783F115D8D9CE8C08B284DD53.e.7")>的元素对象中输入HM_2023_test！
-2026-08-13 15:29:53,328 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
-2026-08-13 15:29:53,467 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="434c018ea84ded0042a38afe57b3caa2", element="f.C15934152D0992D057D63BC329584E6F.d.4C650FA783F115D8D9CE8C08B284DD53.e.8")>的元素对象中输入2！
-2026-08-13 15:29:53,479 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
-2026-08-13 15:29:54,598 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
-2026-08-13 15:29:54,712 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
-2026-08-13 15:29:54,875 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
-2026-08-13 15:29:55,601 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
-2026-08-13 15:29:55,857 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
-2026-08-13 15:29:56,104 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="434c018ea84ded0042a38afe57b3caa2", element="f.C15934152D0992D057D63BC329584E6F.d.4C650FA783F115D8D9CE8C08B284DD53.e.211")>的元素对象中输入测试kdUI！
-2026-08-13 15:29:56,155 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
-2026-08-13 15:29:56,363 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="434c018ea84ded0042a38afe57b3caa2", element="f.C15934152D0992D057D63BC329584E6F.d.4C650FA783F115D8D9CE8C08B284DD53.e.216")>的元素对象中输入add_20260813152955！
-2026-08-13 15:29:56,377 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']/ancestor::div[contains(concat(' ',normalize-space(@class),' '),' el-dialog ')][1]//div[contains(concat(' ',normalize-space(@class),' '),' dialog-footer ')]//button[contains(concat(' ',normalize-space(@class),' '),' cus-search-btn ')]")的元素对象！
-2026-08-13 16:54:52,793 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
-2026-08-13 16:54:53,084 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="f7d65d80f9ff3fbecefd8e4b4382a403", element="f.8B9B60B3580582645471EE9BB280B14D.d.92927EE90ABDC2C20EE7518CBD86F7DD.e.7")>的元素对象中输入admin！
-2026-08-13 16:54:53,097 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
-2026-08-13 16:54:53,193 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="f7d65d80f9ff3fbecefd8e4b4382a403", element="f.8B9B60B3580582645471EE9BB280B14D.d.92927EE90ABDC2C20EE7518CBD86F7DD.e.8")>的元素对象中输入HM_2023_test！
-2026-08-13 16:54:53,205 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
-2026-08-13 16:54:53,340 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="f7d65d80f9ff3fbecefd8e4b4382a403", element="f.8B9B60B3580582645471EE9BB280B14D.d.92927EE90ABDC2C20EE7518CBD86F7DD.e.9")>的元素对象中输入2！
-2026-08-13 16:54:53,352 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
-2026-08-13 16:54:54,386 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
-2026-08-13 16:54:54,550 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
-2026-08-13 16:54:54,762 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
-2026-08-13 16:54:55,457 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
-2026-08-13 16:54:55,662 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
-2026-08-13 16:54:55,897 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="f7d65d80f9ff3fbecefd8e4b4382a403", element="f.8B9B60B3580582645471EE9BB280B14D.d.92927EE90ABDC2C20EE7518CBD86F7DD.e.212")>的元素对象中输入测试kdUI！
-2026-08-13 16:54:55,933 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
-2026-08-13 16:54:56,148 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="f7d65d80f9ff3fbecefd8e4b4382a403", element="f.8B9B60B3580582645471EE9BB280B14D.d.92927EE90ABDC2C20EE7518CBD86F7DD.e.217")>的元素对象中输入add_20260813165454！
-2026-08-13 16:54:56,161 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']/ancestor::div[contains(concat(' ',normalize-space(@class),' '),' el-dialog ')][1]//div[contains(concat(' ',normalize-space(@class),' '),' dialog-footer ')]//button[contains(concat(' ',normalize-space(@class),' '),' cus-search-btn ')]")的元素对象！
+2026-08-14 11:10:41,216 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
+2026-08-14 11:10:41,501 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="55e0f69d85e753422a8b2e906b0e9c37", element="f.F0BB4B8B3BE09E1E5D79C33D31278C8D.d.970015CD48E9A126DB8F918101420F0C.e.7")>的元素对象中输入admin！
+2026-08-14 11:10:41,513 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
+2026-08-14 11:10:41,613 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="55e0f69d85e753422a8b2e906b0e9c37", element="f.F0BB4B8B3BE09E1E5D79C33D31278C8D.d.970015CD48E9A126DB8F918101420F0C.e.8")>的元素对象中输入HM_2023_test！
+2026-08-14 11:10:41,624 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
+2026-08-14 11:10:41,714 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="55e0f69d85e753422a8b2e906b0e9c37", element="f.F0BB4B8B3BE09E1E5D79C33D31278C8D.d.970015CD48E9A126DB8F918101420F0C.e.9")>的元素对象中输入2！
+2026-08-14 11:10:41,730 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
+2026-08-14 11:10:43,265 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
+2026-08-14 11:10:43,346 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
+2026-08-14 11:10:43,596 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
+2026-08-14 11:10:44,294 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
+2026-08-14 11:10:44,536 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
+2026-08-14 11:10:44,739 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="55e0f69d85e753422a8b2e906b0e9c37", element="f.F0BB4B8B3BE09E1E5D79C33D31278C8D.d.D5635C52299AFE43A92EC4632E12250D.e.195")>的元素对象中输入测试kdUI！
+2026-08-14 11:10:44,762 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
+2026-08-14 11:10:44,996 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="55e0f69d85e753422a8b2e906b0e9c37", element="f.F0BB4B8B3BE09E1E5D79C33D31278C8D.d.D5635C52299AFE43A92EC4632E12250D.e.200")>的元素对象中输入add_20260814111043！
+2026-08-14 11:10:45,011 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']/ancestor::div[contains(concat(' ',normalize-space(@class),' '),' el-dialog ')][1]//div[contains(concat(' ',normalize-space(@class),' '),' dialog-footer ')]//button[contains(concat(' ',normalize-space(@class),' '),' cus-search-btn ')]")的元素对象！
+2026-08-14 11:10:50,777 INFO [base_page.py(find_el:110)] - 成功获取到('name', 'username')的元素对象！
+2026-08-14 11:10:51,008 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="128eb7828c19d0ed9a0f25add26f7524", element="f.6F7B21CFF4C369CD3F1B25A1D8A0892E.d.370D17108D8579EEFE4A981D106E82D1.e.6")>的元素对象中输入admin！
+2026-08-14 11:10:51,019 INFO [base_page.py(find_el:110)] - 成功获取到('name', 'password')的元素对象！
+2026-08-14 11:10:51,097 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="128eb7828c19d0ed9a0f25add26f7524", element="f.6F7B21CFF4C369CD3F1B25A1D8A0892E.d.370D17108D8579EEFE4A981D106E82D1.e.7")>的元素对象中输入123456！
+2026-08-14 11:10:51,108 INFO [base_page.py(find_el:110)] - 成功获取到('id', 'vertify')的元素对象！
+2026-08-14 11:10:51,201 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="128eb7828c19d0ed9a0f25add26f7524", element="f.6F7B21CFF4C369CD3F1B25A1D8A0892E.d.370D17108D8579EEFE4A981D106E82D1.e.8")>的元素对象中输入8888！
+2026-08-14 11:10:51,216 INFO [base_page.py(find_el:110)] - 成功获取到('name', 'submit')的元素对象！
+2026-08-14 11:11:11,303 ERROR [utils.py(el_is_exist_by_text:152)] - 未找到文本为admin的元素对象！
+2026-08-14 11:25:21,626 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
+2026-08-14 11:25:21,866 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="57fb140e63fa9de2364987c53a764b9d", element="f.F67EAF557B03B945067E0E7D17272839.d.98C176A90C5A04CAA4318D3495642458.e.6")>的元素对象中输入admin！
+2026-08-14 11:25:21,879 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
+2026-08-14 11:25:21,978 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="57fb140e63fa9de2364987c53a764b9d", element="f.F67EAF557B03B945067E0E7D17272839.d.98C176A90C5A04CAA4318D3495642458.e.7")>的元素对象中输入HM_2023_test！
+2026-08-14 11:25:21,989 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
+2026-08-14 11:25:22,091 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="57fb140e63fa9de2364987c53a764b9d", element="f.F67EAF557B03B945067E0E7D17272839.d.98C176A90C5A04CAA4318D3495642458.e.8")>的元素对象中输入2！
+2026-08-14 11:25:22,105 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
+2026-08-14 11:25:23,591 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
+2026-08-14 11:25:23,672 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
+2026-08-14 11:25:23,918 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
+2026-08-14 11:25:24,607 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
+2026-08-14 11:25:24,909 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
+2026-08-14 11:25:25,239 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="57fb140e63fa9de2364987c53a764b9d", element="f.F67EAF557B03B945067E0E7D17272839.d.2142EBFA790C6F67A7F0E01B14053B19.e.194")>的元素对象中输入测试kdUI！
+2026-08-14 11:25:25,262 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
+2026-08-14 11:25:25,448 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="57fb140e63fa9de2364987c53a764b9d", element="f.F67EAF557B03B945067E0E7D17272839.d.2142EBFA790C6F67A7F0E01B14053B19.e.199")>的元素对象中输入add_20260814112524！
+2026-08-14 11:25:25,462 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']/ancestor::div[contains(concat(' ',normalize-space(@class),' '),' el-dialog ')][1]//div[contains(concat(' ',normalize-space(@class),' '),' dialog-footer ')]//button[contains(concat(' ',normalize-space(@class),' '),' cus-search-btn ')]")的元素对象！
+2026-08-14 14:39:35,852 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
+2026-08-14 14:39:36,124 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="c595d2eb81e1e86228fd0872ff43c3a0", element="f.77B4124DBFB41B5C189AA08CC01CF73F.d.168BBC3F4519F6725C3113794975B064.e.4")>的元素对象中输入admin！
+2026-08-14 14:39:36,137 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
+2026-08-14 14:39:36,240 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="c595d2eb81e1e86228fd0872ff43c3a0", element="f.77B4124DBFB41B5C189AA08CC01CF73F.d.168BBC3F4519F6725C3113794975B064.e.8")>的元素对象中输入HM_2023_test！
+2026-08-14 14:39:36,252 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
+2026-08-14 14:39:36,351 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="c595d2eb81e1e86228fd0872ff43c3a0", element="f.77B4124DBFB41B5C189AA08CC01CF73F.d.168BBC3F4519F6725C3113794975B064.e.9")>的元素对象中输入2！
+2026-08-14 14:39:36,364 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
+2026-08-14 14:39:37,902 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
+2026-08-14 14:39:37,987 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
+2026-08-14 14:39:38,221 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
+2026-08-14 14:39:38,989 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
+2026-08-14 14:39:39,283 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
+2026-08-14 14:39:39,460 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="c595d2eb81e1e86228fd0872ff43c3a0", element="f.77B4124DBFB41B5C189AA08CC01CF73F.d.2AB6DEB303ED44D6522EFF054620B4D3.e.198")>的元素对象中输入测试kdUI！
+2026-08-14 14:39:39,479 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
+2026-08-14 14:39:39,728 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="c595d2eb81e1e86228fd0872ff43c3a0", element="f.77B4124DBFB41B5C189AA08CC01CF73F.d.2AB6DEB303ED44D6522EFF054620B4D3.e.203")>的元素对象中输入add_20260814143938！
+2026-08-14 14:39:39,744 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']/ancestor::div[contains(concat(' ',normalize-space(@class),' '),' el-dialog ')][1]//div[contains(concat(' ',normalize-space(@class),' '),' dialog-footer ')]//button[contains(concat(' ',normalize-space(@class),' '),' cus-search-btn ')]")的元素对象！
+2026-08-14 14:39:45,430 INFO [base_page.py(find_el:110)] - 成功获取到('name', 'username')的元素对象！
+2026-08-14 14:39:45,664 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="282fdc31f4489ba46e2d3495abd854fa", element="f.94035A411AE02220ED72A82B084758AF.d.518B8348BFEBC590AA76DC99FA560D76.e.5")>的元素对象中输入admin！
+2026-08-14 14:39:45,675 INFO [base_page.py(find_el:110)] - 成功获取到('name', 'password')的元素对象！
+2026-08-14 14:39:45,752 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="282fdc31f4489ba46e2d3495abd854fa", element="f.94035A411AE02220ED72A82B084758AF.d.518B8348BFEBC590AA76DC99FA560D76.e.6")>的元素对象中输入123456！
+2026-08-14 14:39:45,762 INFO [base_page.py(find_el:110)] - 成功获取到('id', 'vertify')的元素对象！
+2026-08-14 14:39:45,883 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="282fdc31f4489ba46e2d3495abd854fa", element="f.94035A411AE02220ED72A82B084758AF.d.518B8348BFEBC590AA76DC99FA560D76.e.7")>的元素对象中输入8888！
+2026-08-14 14:39:45,897 INFO [base_page.py(find_el:110)] - 成功获取到('name', 'submit')的元素对象！
+2026-08-14 14:39:55,942 ERROR [utils.py(el_is_exist_by_text:152)] - 未找到文本为admin的元素对象！
+2026-08-14 14:40:19,312 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
+2026-08-14 14:40:19,545 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="e9a2dc52e4ecd0d81e9731deb38c4b76", element="f.C42E988BB504B4ED7BE4747CEEB0A88B.d.45744A7736F4A6910B7C9AC152C73D06.e.6")>的元素对象中输入admin！
+2026-08-14 14:40:19,558 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
+2026-08-14 14:40:19,660 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="e9a2dc52e4ecd0d81e9731deb38c4b76", element="f.C42E988BB504B4ED7BE4747CEEB0A88B.d.45744A7736F4A6910B7C9AC152C73D06.e.7")>的元素对象中输入HM_2023_test！
+2026-08-14 14:40:19,671 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
+2026-08-14 14:40:19,759 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="e9a2dc52e4ecd0d81e9731deb38c4b76", element="f.C42E988BB504B4ED7BE4747CEEB0A88B.d.45744A7736F4A6910B7C9AC152C73D06.e.8")>的元素对象中输入2！
+2026-08-14 14:40:19,773 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
+2026-08-14 14:40:21,190 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
+2026-08-14 14:40:21,293 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
+2026-08-14 14:40:21,553 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
+2026-08-14 14:40:22,327 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
+2026-08-14 14:40:22,695 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
+2026-08-14 14:40:23,006 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="e9a2dc52e4ecd0d81e9731deb38c4b76", element="f.C42E988BB504B4ED7BE4747CEEB0A88B.d.D708DBFC549788E9E0DCEA4BB0BA45FB.e.184")>的元素对象中输入测试kdUI！
+2026-08-14 14:40:23,052 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
+2026-08-14 14:40:23,253 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="e9a2dc52e4ecd0d81e9731deb38c4b76", element="f.C42E988BB504B4ED7BE4747CEEB0A88B.d.D708DBFC549788E9E0DCEA4BB0BA45FB.e.189")>的元素对象中输入add_20260814144021！
+2026-08-14 14:40:23,267 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']/ancestor::div[contains(concat(' ',normalize-space(@class),' '),' el-dialog ')][1]//div[contains(concat(' ',normalize-space(@class),' '),' dialog-footer ')]//button[contains(concat(' ',normalize-space(@class),' '),' cus-search-btn ')]")的元素对象！
+2026-08-14 14:48:02,288 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
+2026-08-14 14:48:02,528 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="025899884b28600bfd6fdd64c4a94918", element="f.597B48C93AA7E0F3B6CD18B27330EF56.d.C7A123E0D02B194B5B9C0FAE0C4B54EC.e.6")>的元素对象中输入admin！
+2026-08-14 14:48:02,541 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
+2026-08-14 14:48:02,638 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="025899884b28600bfd6fdd64c4a94918", element="f.597B48C93AA7E0F3B6CD18B27330EF56.d.C7A123E0D02B194B5B9C0FAE0C4B54EC.e.7")>的元素对象中输入HM_2023_test！
+2026-08-14 14:48:02,649 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
+2026-08-14 14:48:02,734 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="025899884b28600bfd6fdd64c4a94918", element="f.597B48C93AA7E0F3B6CD18B27330EF56.d.C7A123E0D02B194B5B9C0FAE0C4B54EC.e.8")>的元素对象中输入2！
+2026-08-14 14:48:02,751 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
+2026-08-14 14:48:04,166 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
+2026-08-14 14:48:04,250 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
+2026-08-14 14:48:04,547 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
+2026-08-14 14:48:05,265 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
+2026-08-14 14:48:05,508 ERROR [base_page.py(find_el:112)] - 没有获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
+2026-08-14 14:48:05,508 ERROR [base_page.py(input_text:123)] - 没有在None的元素对象中输入测试kdUI！
+2026-08-14 14:48:05,512 ERROR [base_page.py(find_el:112)] - 没有获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
+2026-08-14 14:48:05,512 ERROR [base_page.py(input_text:123)] - 没有在None的元素对象中输入add_20260814144804！
+2026-08-14 14:48:05,513 ERROR [base_page.py(find_el:112)] - 没有获取到('xpath', "//input[@placeholder='请输入用户昵称']/ancestor::div[contains(concat(' ',normalize-space(@class),' '),' el-dialog ')][1]//div[contains(concat(' ',normalize-space(@class),' '),' dialog-footer ')]//button[contains(concat(' ',normalize-space(@class),' '),' cus-search-btn ')]")的元素对象！
+2026-08-14 14:48:31,922 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
+2026-08-14 14:48:32,176 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="40cfd8d47e3b351899698d3388a502c6", element="f.B5EBB0F8027612DBDC163C028E500765.d.218C49FF02DF195E3630B06DD46821EF.e.7")>的元素对象中输入admin！
+2026-08-14 14:48:32,189 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
+2026-08-14 14:48:32,304 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="40cfd8d47e3b351899698d3388a502c6", element="f.B5EBB0F8027612DBDC163C028E500765.d.218C49FF02DF195E3630B06DD46821EF.e.8")>的元素对象中输入HM_2023_test！
+2026-08-14 14:48:32,316 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
+2026-08-14 14:48:32,435 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="40cfd8d47e3b351899698d3388a502c6", element="f.B5EBB0F8027612DBDC163C028E500765.d.218C49FF02DF195E3630B06DD46821EF.e.9")>的元素对象中输入2！
+2026-08-14 14:48:32,451 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
+2026-08-14 14:48:33,926 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
+2026-08-14 14:48:34,016 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
+2026-08-14 14:48:34,281 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
+2026-08-14 14:48:35,053 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
+2026-08-14 14:48:35,413 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
+2026-08-14 14:48:35,594 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="40cfd8d47e3b351899698d3388a502c6", element="f.B5EBB0F8027612DBDC163C028E500765.d.6742C5D9D58901D2ECA24CB05DF7DAF8.e.195")>的元素对象中输入测试kdUI！
+2026-08-14 14:48:35,617 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
+2026-08-14 14:48:35,859 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="40cfd8d47e3b351899698d3388a502c6", element="f.B5EBB0F8027612DBDC163C028E500765.d.6742C5D9D58901D2ECA24CB05DF7DAF8.e.200")>的元素对象中输入add_20260814144834！
+2026-08-14 14:48:35,873 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']/ancestor::div[contains(concat(' ',normalize-space(@class),' '),' el-dialog ')][1]//div[contains(concat(' ',normalize-space(@class),' '),' dialog-footer ')]//button[contains(concat(' ',normalize-space(@class),' '),' cus-search-btn ')]")的元素对象！
+2026-08-14 14:53:00,772 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
+2026-08-14 14:53:00,995 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="adfedb84e49510daf6e5690c36a63f4c", element="f.EE3CA6FF8A54B6F259879BBA23746F90.d.FD4B4EA24D7985745C8AEFFD326C16FF.e.6")>的元素对象中输入admin！
+2026-08-14 14:53:01,006 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
+2026-08-14 14:53:01,097 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="adfedb84e49510daf6e5690c36a63f4c", element="f.EE3CA6FF8A54B6F259879BBA23746F90.d.FD4B4EA24D7985745C8AEFFD326C16FF.e.7")>的元素对象中输入HM_2023_test！
+2026-08-14 14:53:01,147 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
+2026-08-14 14:53:01,254 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="adfedb84e49510daf6e5690c36a63f4c", element="f.EE3CA6FF8A54B6F259879BBA23746F90.d.FD4B4EA24D7985745C8AEFFD326C16FF.e.8")>的元素对象中输入2！
+2026-08-14 14:53:01,286 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
+2026-08-14 14:53:02,440 ERROR [base_page.py(find_el:112)] - 没有获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
+2026-08-14 14:53:07,255 INFO [base_page.py(find_el:110)] - 成功获取到('name', 'username')的元素对象！
+2026-08-14 14:53:07,433 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="7f4804845c4adef3fe43cc94c2e2cb79", element="f.37232846D1DDA83BBEE18A86643DDE13.d.3B672E66839B1C81F051E04A59B8BA76.e.7")>的元素对象中输入admin！
+2026-08-14 14:53:07,444 INFO [base_page.py(find_el:110)] - 成功获取到('name', 'password')的元素对象！
+2026-08-14 14:53:07,501 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="7f4804845c4adef3fe43cc94c2e2cb79", element="f.37232846D1DDA83BBEE18A86643DDE13.d.3B672E66839B1C81F051E04A59B8BA76.e.8")>的元素对象中输入123456！
+2026-08-14 14:53:07,510 INFO [base_page.py(find_el:110)] - 成功获取到('id', 'vertify')的元素对象！
+2026-08-14 14:53:07,560 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="7f4804845c4adef3fe43cc94c2e2cb79", element="f.37232846D1DDA83BBEE18A86643DDE13.d.3B672E66839B1C81F051E04A59B8BA76.e.9")>的元素对象中输入8888！
+2026-08-14 14:53:07,569 INFO [base_page.py(find_el:110)] - 成功获取到('name', 'submit')的元素对象！
+2026-08-14 14:53:29,184 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
+2026-08-14 14:53:29,417 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="cfc72670fd50a5dc7428b8e72090c4e7", element="f.A3ADF4DDD4AFAE46B2B2D54B2F664F9B.d.B3C59CD635B19610A7B05C4C4A5EC3F3.e.6")>的元素对象中输入admin！
+2026-08-14 14:53:29,432 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
+2026-08-14 14:53:29,529 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="cfc72670fd50a5dc7428b8e72090c4e7", element="f.A3ADF4DDD4AFAE46B2B2D54B2F664F9B.d.B3C59CD635B19610A7B05C4C4A5EC3F3.e.7")>的元素对象中输入HM_2023_test！
+2026-08-14 14:53:29,542 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
+2026-08-14 14:53:29,635 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="cfc72670fd50a5dc7428b8e72090c4e7", element="f.A3ADF4DDD4AFAE46B2B2D54B2F664F9B.d.B3C59CD635B19610A7B05C4C4A5EC3F3.e.8")>的元素对象中输入2！
+2026-08-14 14:53:29,648 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
+2026-08-14 14:53:31,090 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
+2026-08-14 14:53:31,165 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
+2026-08-14 14:53:31,474 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
+2026-08-14 14:53:32,227 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
+2026-08-14 14:53:32,565 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
+2026-08-14 14:53:32,784 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="cfc72670fd50a5dc7428b8e72090c4e7", element="f.A3ADF4DDD4AFAE46B2B2D54B2F664F9B.d.2E25F0AD69CF2076F35A8BC526DAD905.e.194")>的元素对象中输入测试kdUI！
+2026-08-14 14:53:32,823 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
+2026-08-14 14:53:33,027 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="cfc72670fd50a5dc7428b8e72090c4e7", element="f.A3ADF4DDD4AFAE46B2B2D54B2F664F9B.d.2E25F0AD69CF2076F35A8BC526DAD905.e.199")>的元素对象中输入add_20260814145331！
+2026-08-14 14:53:33,043 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']/ancestor::div[contains(concat(' ',normalize-space(@class),' '),' el-dialog ')][1]//div[contains(concat(' ',normalize-space(@class),' '),' dialog-footer ')]//button[contains(concat(' ',normalize-space(@class),' '),' cus-search-btn ')]")的元素对象！
+2026-08-14 15:30:49,632 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
+2026-08-14 15:30:49,893 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="3fdaede0de7b5419d170c9d3c4b3e0bc", element="f.BC4408E44D70A3CA7D8149DA9A365352.d.6210CDEA3D4953DAF8804A3C26CB1A8B.e.6")>的元素对象中输入admin！
+2026-08-14 15:30:49,906 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
+2026-08-14 15:30:49,997 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="3fdaede0de7b5419d170c9d3c4b3e0bc", element="f.BC4408E44D70A3CA7D8149DA9A365352.d.6210CDEA3D4953DAF8804A3C26CB1A8B.e.7")>的元素对象中输入HM_2023_test！
+2026-08-14 15:30:50,008 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
+2026-08-14 15:30:50,128 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="3fdaede0de7b5419d170c9d3c4b3e0bc", element="f.BC4408E44D70A3CA7D8149DA9A365352.d.6210CDEA3D4953DAF8804A3C26CB1A8B.e.8")>的元素对象中输入2！
+2026-08-14 15:30:50,141 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
+2026-08-14 15:30:51,568 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
+2026-08-14 15:30:51,690 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
+2026-08-14 15:30:51,874 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
+2026-08-14 15:30:52,637 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
+2026-08-14 15:30:52,959 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
+2026-08-14 15:30:53,334 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="3fdaede0de7b5419d170c9d3c4b3e0bc", element="f.BC4408E44D70A3CA7D8149DA9A365352.d.E5034911E70F2010BB074D891E453E8C.e.196")>的元素对象中输入测试kdUI！
+2026-08-14 15:30:53,354 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
+2026-08-14 15:30:53,512 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="3fdaede0de7b5419d170c9d3c4b3e0bc", element="f.BC4408E44D70A3CA7D8149DA9A365352.d.E5034911E70F2010BB074D891E453E8C.e.201")>的元素对象中输入add_20260814153052！
+2026-08-14 15:30:53,526 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']/ancestor::div[contains(concat(' ',normalize-space(@class),' '),' el-dialog ')][1]//div[contains(concat(' ',normalize-space(@class),' '),' dialog-footer ')]//button[contains(concat(' ',normalize-space(@class),' '),' cus-search-btn ')]")的元素对象！
+2026-08-14 15:44:44,649 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
+2026-08-14 15:44:44,911 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="7314c0c188c000c823e043d23468f248", element="f.39FA170FD9E557382B712D656818B3BB.d.120C8B6FFCA1D79C865717E95960C86D.e.6")>的元素对象中输入admin！
+2026-08-14 15:44:44,923 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
+2026-08-14 15:44:45,018 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="7314c0c188c000c823e043d23468f248", element="f.39FA170FD9E557382B712D656818B3BB.d.120C8B6FFCA1D79C865717E95960C86D.e.7")>的元素对象中输入HM_2023_test！
+2026-08-14 15:44:45,032 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
+2026-08-14 15:44:45,175 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="7314c0c188c000c823e043d23468f248", element="f.39FA170FD9E557382B712D656818B3BB.d.120C8B6FFCA1D79C865717E95960C86D.e.8")>的元素对象中输入2！
+2026-08-14 15:44:45,192 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
+2026-08-14 15:44:46,638 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
+2026-08-14 15:44:46,702 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
+2026-08-14 15:44:46,977 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
+2026-08-14 15:44:47,677 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
+2026-08-14 15:44:47,926 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
+2026-08-14 15:44:48,165 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="7314c0c188c000c823e043d23468f248", element="f.39FA170FD9E557382B712D656818B3BB.d.E3A380E4E7F542BCF720F0B938C669A7.e.198")>的元素对象中输入测试kdUI！
+2026-08-14 15:44:48,250 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
+2026-08-14 15:44:48,440 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="7314c0c188c000c823e043d23468f248", element="f.39FA170FD9E557382B712D656818B3BB.d.E3A380E4E7F542BCF720F0B938C669A7.e.203")>的元素对象中输入add_20260814154447！
+2026-08-14 15:44:48,456 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']/ancestor::div[contains(concat(' ',normalize-space(@class),' '),' el-dialog ')][1]//div[contains(concat(' ',normalize-space(@class),' '),' dialog-footer ')]//button[contains(concat(' ',normalize-space(@class),' '),' cus-search-btn ')]")的元素对象！
+2026-08-14 15:52:55,138 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="账号"]')的元素对象！
+2026-08-14 15:52:55,363 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="c025e2c8327118126ee1311d1704ff24", element="f.2D24798FC4427F158E459E0BF2AD4822.d.D60B5F298197B5D51948232FEAA1949F.e.6")>的元素对象中输入admin！
+2026-08-14 15:52:55,376 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="密码"]')的元素对象！
+2026-08-14 15:52:55,483 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="c025e2c8327118126ee1311d1704ff24", element="f.2D24798FC4427F158E459E0BF2AD4822.d.D60B5F298197B5D51948232FEAA1949F.e.7")>的元素对象中输入HM_2023_test！
+2026-08-14 15:52:55,497 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'input[placeholder="验证码"]')的元素对象！
+2026-08-14 15:52:55,584 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="c025e2c8327118126ee1311d1704ff24", element="f.2D24798FC4427F158E459E0BF2AD4822.d.D60B5F298197B5D51948232FEAA1949F.e.8")>的元素对象中输入2！
+2026-08-14 15:52:55,599 INFO [base_page.py(find_el:110)] - 成功获取到('css selector', 'button.login-btn')的元素对象！
+2026-08-14 15:52:57,031 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
+2026-08-14 15:52:57,097 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
+2026-08-14 15:52:57,338 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
+2026-08-14 15:52:58,024 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
+2026-08-14 15:52:58,343 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
+2026-08-14 15:52:58,531 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="c025e2c8327118126ee1311d1704ff24", element="f.2D24798FC4427F158E459E0BF2AD4822.d.734901A070363A43C680FFBFBF42D1E1.e.198")>的元素对象中输入测试kdUI！
+2026-08-14 15:52:58,613 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
+2026-08-14 15:52:58,864 INFO [base_page.py(input_text:121)] - 成功在<selenium.webdriver.remote.webelement.WebElement (session="c025e2c8327118126ee1311d1704ff24", element="f.2D24798FC4427F158E459E0BF2AD4822.d.734901A070363A43C680FFBFBF42D1E1.e.203")>的元素对象中输入add_20260814155257！
+2026-08-14 15:52:58,876 INFO [base_page.py(find_el:110)] - 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']/ancestor::div[contains(concat(' ',normalize-space(@class),' '),' el-dialog ')][1]//div[contains(concat(' ',normalize-space(@class),' '),' dialog-footer ')]//button[contains(concat(' ',normalize-space(@class),' '),' cus-search-btn ')]")的元素对象！

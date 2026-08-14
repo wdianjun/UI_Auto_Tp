@@ -1,0 +1,9 @@
+[32mINFO    [0m root:base_page.py:110 成功获取到('xpath', "//span[normalize-space()='系统管理']")的元素对象！
+[32mINFO    [0m root:base_page.py:110 成功获取到('xpath', "//span[normalize-space()='权限管理']")的元素对象！
+[32mINFO    [0m root:base_page.py:110 成功获取到('xpath', "//span[normalize-space()='用户管理']")的元素对象！
+[32mINFO    [0m root:base_page.py:110 成功获取到('xpath', "//span[normalize-space()='新增']")的元素对象！
+[32mINFO    [0m root:base_page.py:110 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']")的元素对象！
+[32mINFO    [0m root:base_page.py:121 成功在<selenium.webdriver.remote.webelement.WebElement (session="c025e2c8327118126ee1311d1704ff24", element="f.2D24798FC4427F158E459E0BF2AD4822.d.734901A070363A43C680FFBFBF42D1E1.e.198")>的元素对象中输入测试kdUI！
+[32mINFO    [0m root:base_page.py:110 成功获取到('xpath', "(//input[@placeholder='请输入用户名称'])[2]")的元素对象！
+[32mINFO    [0m root:base_page.py:121 成功在<selenium.webdriver.remote.webelement.WebElement (session="c025e2c8327118126ee1311d1704ff24", element="f.2D24798FC4427F158E459E0BF2AD4822.d.734901A070363A43C680FFBFBF42D1E1.e.203")>的元素对象中输入add_20260814155257！
+[32mINFO    [0m root:base_page.py:110 成功获取到('xpath', "//input[@placeholder='请输入用户昵称']/ancestor::div[contains(concat(' ',normalize-space(@class),' '),' el-dialog ')][1]//div[contains(concat(' ',normalize-space(@class),' '),' dialog-footer ')]//button[contains(concat(' ',normalize-space(@class),' '),' cus-search-btn ')]")的元素对象！
